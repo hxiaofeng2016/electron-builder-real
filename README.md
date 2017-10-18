@@ -16,7 +16,7 @@ your-app/
 └── index.html
 ```
 
-#新建index.html
+# 新建index.html
 
 ```bash
 <!doctype html>
@@ -32,7 +32,7 @@ your-app/
 ```
 
 
-#新建package.json
+# 新建package.json
 
 ```bash
 {
@@ -62,7 +62,7 @@ your-app/
   "license": "ISC"
 }
 ```
-#新建main.js
+# 新建main.js
 
 ```bash
 const electron = require('electron'); // 控制应用生命周期的模块。
@@ -118,7 +118,7 @@ $ npm start
 ```bash
 $ npm run dist
 ```
-#打包成功后会出现程序文件夹和一个安装包
+打包成功后会出现程序文件夹和一个安装包
 
 ### 温馨提示：
 - 此案例及打包是针对快速完成为主,如需设置图标-系统64位等具体参数可通过其他资料获取；
