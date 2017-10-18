@@ -1,5 +1,5 @@
 ## Electron 介绍
-- Electron 是一个可以将网页打包桌面应用平台 并且可以使用纯 JavaScript 调用丰富的原生 APIs
+- Electron 是一个可以将网页打包桌面应用平台 并且可以使用纯 JavaScript 调用丰富的原生 API
 - electron-builder是Electron打包各类系统(MacOS, Windows和Linux)与“自动更新”的工具
 
 ## 特性
