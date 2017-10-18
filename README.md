@@ -6,7 +6,7 @@
 - 打造第一个 Electron 案例;
 - 通过electron-builder 将 Electron案例 制作成 Windows程序 以及 安装包
 
-## 创建第一个Electron案例
+### 创建第一个Electron案例
 
 大体上，目录结构如下：
 ```bash
@@ -16,7 +16,7 @@ your-app/
 └── index.html
 ```
 
-# 新建index.html
+### 新建index.html
 
 ```bash
 <!doctype html>
@@ -32,7 +32,7 @@ your-app/
 ```
 
 
-# 新建package.json
+### 新建package.json
 
 ```bash
 {
@@ -62,7 +62,7 @@ your-app/
   "license": "ISC"
 }
 ```
-# 新建main.js
+### 新建main.js
 
 ```bash
 const electron = require('electron'); // 控制应用生命周期的模块。
