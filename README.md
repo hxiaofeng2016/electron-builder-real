@@ -1,5 +1,5 @@
-# Electron 是一个可以将网页打包桌面应用平台 并且可以使用纯 JavaScript 调用丰富的原生 APIs
-# electron-builder是Electron打包各类系统(MacOS, Windows和Linux)与“自动更新”的工具
+## Electron 是一个可以将网页打包桌面应用平台 并且可以使用纯 JavaScript 调用丰富的原生 APIs
+## electron-builder是Electron打包各类系统(MacOS, Windows和Linux)与“自动更新”的工具
 
 ## 特性
 - 打造第一个 Electron 案例;
@@ -8,12 +8,12 @@
 ## 创建第一个Electron案例
 
 大体上，目录结构如下：
-
+```bash
 your-app/
 ├── package.json
 ├── main.js
 └── index.html
-
+```
 
 #新建index.html
 
@@ -119,12 +119,12 @@ $ npm run dist
 ```
 #打包成功后会出现程序文件夹和一个安装包
 
-温馨提示：
-	1.此案例及打包是针对快速完成为主,如需设置图标-系统64位等具体参数可通过其他资料获取；
-	2.在打包的过程偶尔会出现因墙内、网速、断包等因素导致失败，可删除dist文件夹重新执行打包命令；
-	3.此案例是通过多个资料整理得出的，如需要了解更多请看下面资料链接；
-	4.此案例已亲测多次通过，有其他问题或者交流可发送到我的Email(422972230@qq.com);
+###温馨提示：
+###  1.此案例及打包是针对快速完成为主,如需设置图标-系统64位等具体参数可通过其他资料获取；
+###  2.在打包的过程偶尔会出现因墙内、网速、断包等因素导致失败，可删除dist文件夹重新执行打包命令；
+###  3.此案例是通过多个资料整理得出的，如需要了解更多请看下面资料链接；
+###  4.此案例已亲测多次通过，有其他问题或者交流可发送到我的Email(422972230@qq.com);
 
-相关链接：
-	[electron](https://electron.atom.io)。
-	[electron-builder](https://www.npmjs.com/package/electron-builder)。
+###相关链接：
+###  [electron](https://electron.atom.io)。
+###  [electron-builder](https://www.npmjs.com/package/electron-builder)。
